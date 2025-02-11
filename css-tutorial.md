@@ -284,7 +284,8 @@ nav > ul > li {
     border-radius: 3px;
 }
 ```
-[บันทึกภาพหน้าจอของผลลัพธ์การทดลอง]
+![image](https://github.com/user-attachments/assets/d1b60a02-0e64-4e43-aede-396f526d54a2)
+
 
 
 [](#การทดลองที่-3-การจัดการสีและพื้นหลัง)

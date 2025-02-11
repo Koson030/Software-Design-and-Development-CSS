@@ -249,8 +249,8 @@ div > p {
     </nav>
 </body>
 </html>
-'''
-'''css
+```
+```css
 /* ไฟล์ styles.css */
 nav {
     background-color: rgb(223, 218, 152);

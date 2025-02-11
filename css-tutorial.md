@@ -389,9 +389,124 @@ background-size: cover;
 
 ### ผลการทดลอง
 ```html
-[วางโค้ดที่นี่]
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Cards</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <div class="container">
+        <div class="product-card">
+            <div class="product-image" style="background-image: url('/images/products/MVG0302.png');"></div>
+            <div class="product-info">
+                <h2 class="product-title">MVG0302-ดาบแกร่งแห่งการเรียงตัว ลากรันจาด </h2>
+                <p class="product-price">฿100</p>
+                <p class="product-description">V-PR</p>
+                <a href="#" class="product-button">เพิ่มลงตะกร้า</a>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <div class="product-image" style="background-image: url('images/products/MVG0249.png');"></div>
+            <div class="product-info">
+                <h2 class="product-title">MVG0249-สตาร์เวเดอร์ เคออสเบรกเกอร์ดราก้อน</h2>
+                <p class="product-price">฿200</p>
+                <p class="product-description">V-PR</p>
+                <a href="#" class="product-button">เพิ่มลงตะกร้า</a>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <div class="product-image" style="background-image: url('images/products/MVG0203.png');"></div>
+            <div class="product-info">
+                <h2 class="product-title">MVG0203-สเป็คทรัล ดุ๊ค ดราก้อน</h2>
+                <p class="product-price">฿300</p>
+                <p class="product-description">V-PR</p>
+                <a href="#" class="product-button">เพิ่มลงตะกร้า</a>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <div class="product-image" style="background-image: url('images/products/MVG0200.png');"></div>
+            <div class="product-info">
+                <h2 class="product-title">MVG0200-แซงค์ทัวรี่การ์ดดราก้อน</h2>
+                <p class="product-price">฿350</p>
+                <p class="product-description">V-PR</p>
+                <a href="#" class="product-button">เพิ่มลงตะกร้า</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>]
 ```
-[บันทึกภาพหน้าจอของผลลัพธ์การทดลอง]
+```css
+.product-card {
+    width: 300px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    background-color: white;
+    margin: 15px;
+    display: inline-block;
+}
+
+.product-image {
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+}
+
+.product-info {
+    padding: 15px;
+}
+
+.product-title {
+    color: #333;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.product-price {
+    color: #007bff;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.product-description {
+    color: #666;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.product-button {
+    display: block;
+    background: linear-gradient(to right, #007bff, #ff0000);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    margin-top: 15px;
+    border-radius: 4px;
+}
+
+.product-button:hover {
+    background: linear-gradient(to right, #0056b3, #003980);
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+```
+
+![image](https://github.com/user-attachments/assets/9e74fbed-5296-4fb0-bb23-9a241a4e2f71)
+
 
 [](#การทดลองที่-4-การจัดการขนาดและระยะห่าง)
 ## การทดลองที่ 4: การจัดการขนาดและระยะห่าง
